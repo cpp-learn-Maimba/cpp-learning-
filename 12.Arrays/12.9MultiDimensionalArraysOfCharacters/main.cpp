@@ -25,7 +25,7 @@ int main(){
   
 
 
-    //Can loop around manually printing out each character
+    //...................Can  print each character
     /*
 	std::cout << std::endl;
     std::cout << "Printing out character by character manually : " << std::endl;
@@ -65,7 +65,7 @@ int main(){
     //Updating our prediction declaration in the fortune teller game
     char predictions [] [90] {
         "a lot of kinds running in the backyard!",
-        "a lot of empty beer bootles on your work table.",
+        "a lot of empty beer bootles on your work table.", /////11 rows
         "you Partying too much with kids wearing weird clothes.",
         "you running away from something really scary",
         "clouds gathering in the sky and an army standing ready for war",

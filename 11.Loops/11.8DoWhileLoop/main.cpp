@@ -16,7 +16,7 @@ int main(){
     std::cout << "I love C++" << std::endl;
     */
 
-    const int COUNT{0};
+    const int COUNT{10};
     size_t i{0}; // Iterator declaration
 
     do{

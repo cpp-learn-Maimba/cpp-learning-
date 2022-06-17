@@ -7,7 +7,7 @@ int main(){
 	
 	bool go {true};
 
-	if(int speed {10};go){
+	if(int speed {10};go){  /////if inatializer
         std::cout << "speed : " << speed << std::endl;
 		
 		if(speed > 5){

@@ -27,9 +27,10 @@ int main(){
 
     while (!end) {
         std::cout << "Oh dear " << name << ", I see ";
-
+        //generate random numbers..................start
         size_t rand_num = static_cast<size_t>((std::rand() % 11));
-
+        //....end
+        ///////////SWITCH LOOP(start)
         switch (rand_num) { // [0~10]
         case 0:
             std::cout << prediction0 << std::endl;
@@ -67,13 +68,14 @@ int main(){
         default:
             std::cout << ", huum, I don't see anything" << std::endl;
         }
+        //(END)
         std::cout << "Do you want me to try again ? (Y | N) : ";
 
         char go_on;
-        std::cin >> go_on;
+        std::cin >> go_on;//user will type in y or n
 
-        end = ((go_on == 'Y') || (go_on == 'y')) ? false : true;
-
+        end = ((go_on == 'Y') || (go_on == 'y')) ? false : true; //ternary operator check if/else statement
+                                                                 //if they type in 'n',the condition is false and end is assigned true ending the while loop.
     }
 
     std::cout << "That's all I have for you today dear. Best wishes" << std::endl;

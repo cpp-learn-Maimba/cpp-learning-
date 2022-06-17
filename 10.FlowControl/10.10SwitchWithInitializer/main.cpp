@@ -15,7 +15,7 @@ int main(){
 
     int tool {Eraser};
 
-    switch (double strength{3.56};tool)
+    switch (double strength{3.56};tool) /////switch inititalizer
     {
         case Pen : {
              std::cout << "Active tool is Pen. strength : " <<  strength << std::endl;

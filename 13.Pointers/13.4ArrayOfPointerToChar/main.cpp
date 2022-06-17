@@ -37,6 +37,7 @@ int main(){
     */
 
    	// METHOD3.
+       //.....start
     const char * predictions []  {
         "a lot of kids running in the backyard!",
         "a lot of empty beer bootles on your work table.",
@@ -67,7 +68,7 @@ int main(){
         std::cout << predictions[rand_num] << std::endl;
 
 
-
+     //......end
         /*
         switch (rand_num) { // [0~10]
         case 0:

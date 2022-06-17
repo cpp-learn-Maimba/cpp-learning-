@@ -8,7 +8,7 @@ int main(){
     unsigned char unsigned_char {53u};// 555U would fail because of narrowing
     
     //2 Bytes
-    short short_var {-32768} ; //  No special literal type for short)
+    short short_var {-32768} ; //  No special literal type for short) ,,,//no special letter eg in 53u above,,addded as a suffix
     short int short_int {455} ; //  No special literal type for short
     signed short signed_short {122}; // No special literal type for short
     signed short int signed_short_int {-456}; // No special literal type for short

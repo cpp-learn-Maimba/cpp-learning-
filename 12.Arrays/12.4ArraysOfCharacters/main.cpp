@@ -4,7 +4,7 @@
 int main(){
 
 	//Declare array
-    char message [5]  {"Hello"};
+    char message [6]  {'H','e','l','l','o','/0'};
     //int data[5] {1,2,3,3,3};
 
     //std::cout << "data : " << data << std::endl;
@@ -34,7 +34,7 @@ int main(){
 
    
    
-    // Will probably print garbage after your char array
+    // Will probably print garbage after your char array without null termination
     /*
     std::cout << "message : " << message << std::endl;
     */

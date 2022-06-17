@@ -6,6 +6,7 @@ int main(){
 
    //Infinite loop : for loop
    /*
+   //for(size_t i{}; ; ++i)
    for(size_t i{};true ; ++i){
        std::cout << i <<  " : I love C++" << std::endl;
    }

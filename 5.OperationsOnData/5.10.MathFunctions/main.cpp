@@ -6,10 +6,10 @@ int main(){
 
 	double weight { 7.7 };
     
-    //floor
+    //floor;;round down
     std::cout << "Weight rounded to floor is : " << std::floor(weight) << std::endl;
     
-    //ceil 
+    //ceil ;;round up
     std::cout << "Weight rounded to ceil is : " << std::ceil(weight) << std::endl;
     
     //abs

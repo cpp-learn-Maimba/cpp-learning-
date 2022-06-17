@@ -38,14 +38,14 @@ int main(){
 
     const int  max_length{ 15 };
     char name[max_length]{};
-
+       //.....................{START}reason for getting the name
     std::cout << "What's your name dear :" << std::endl;
 
     std::cin.getline(name, max_length); // Get input with spaces
 
     while (!end) {
         std::cout << "Oh dear " << name << ", I see ";
-
+        //.....................{END}  use of getting the name
         size_t rand_num = static_cast<size_t>((std::rand() % std::size(predictions)));
 
         std::cout << predictions[rand_num] << std::endl;

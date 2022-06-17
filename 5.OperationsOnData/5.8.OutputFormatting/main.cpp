@@ -26,7 +26,7 @@ int main(){
     //===================================================================
     std::cout << std::endl;
 
-	//std::flush : flushes the output buffer to its final destination. 
+	//std::flush : flushes the output buffer(intermediate storage ;stores the data until it's full then  it realises the data to the terminal) to its final destination. it causes immediate sending of data to the device connected to the stream
     std::cout << "This is a nice message...." << std::endl << std::flush;
     //After this std::flush, we're sure that at this line, the message has been sent 
     //to the stream. This may be important in some applications.

@@ -20,8 +20,7 @@ int main(){
     }
     */
   
-
-
+///type in data into your array
    /*
     scores[0] = 20;
     scores[1] = 21;
@@ -34,7 +33,7 @@ int main(){
     */
 
 
-   //Write data in a loop
+   //type data via a loop
    /*
    for(size_t i{0}; i < 10 ; ++i){
        scores[i] = i * 10;

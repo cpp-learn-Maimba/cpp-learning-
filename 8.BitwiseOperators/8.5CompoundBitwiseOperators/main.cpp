@@ -48,7 +48,7 @@ int main(){
 	//Compound AND with 0000 1100 to turn off the 2 lowest bits
 	std::cout << std::endl;
 	std::cout << "Compound AND with 0000 1100 :  " << std::endl;
-	sandbox_var &= 0b000000000;
+	sandbox_var &= 0b00001100;
     std::cout << std::setw(COLUMN_WIDTH) << "sandbox_var : "
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(sandbox_var) << std::endl;
     std::cout << std::endl;

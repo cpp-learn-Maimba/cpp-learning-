@@ -19,7 +19,7 @@ int main(){
     }
     */
 
-    max = (a > b)? a : b; // Ternary operator
+    max = (a > b)? a : b; ////////////////// Ternary operator
 	
     std::cout << "max : " << max << std::endl;
 	

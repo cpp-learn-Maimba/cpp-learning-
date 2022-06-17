@@ -84,7 +84,7 @@ int main(){
 	 std::cout << "Police officer stops(verbose)" << std::endl;
 	 if(green){
          if(police_stop){
-             std::cout << "Stop" << std::endl;
+             std::cout << "Stop" << std::endl;///////nesteed
          }
          else{
              std::cout << "Go" << std::endl;

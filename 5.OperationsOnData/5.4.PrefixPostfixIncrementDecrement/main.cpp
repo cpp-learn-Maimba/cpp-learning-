@@ -4,6 +4,7 @@ int main(){
 
 	int value { 5 };
     
+    //regular increment and decreament
     //Increment by one
     value = value + 1; //6
     std::cout << "The value is : " << value << std::endl; // 6

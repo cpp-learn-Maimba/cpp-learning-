@@ -14,7 +14,7 @@ int main(){
     };
 
 
-
+    //....1(a)
     //Read data from a 2D array
     /*
     for(size_t i{0} ; i < 3; ++ i){
@@ -29,8 +29,8 @@ int main(){
     */
 
 
-
-   //Use std::size to query the size of array dimensions
+   //.....(b)
+   //...............UNIQUE THING; replacing {numbers used to give looping times} with {std::size(packages)} 
     /*
     for(size_t i{0} ; i < std::size(packages); ++ i){
 
@@ -75,13 +75,16 @@ int main(){
 
     for(size_t i{0}; i < std::size(house_block) ; ++i){
 
-        for(size_t j{0} ; j < std::size(house_block[i]) ; ++j){
+        for(size_t j{0} ; j < std::size(house_block[i]) ; ++j){ //i , j is the indexes of the arrays
+            std::cout<<'{';
 
             for(size_t k{0} ; k < std::size(house_block[i][j]) ; ++k){
 
                 std::cout << house_block[i][j][k] << "     ";
             }
+            std::cout<<'}';
         }
+        std::cout<<std::endl;
     }
    
 

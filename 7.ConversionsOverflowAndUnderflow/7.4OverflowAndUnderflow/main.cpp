@@ -34,7 +34,7 @@ int main(){
 
     --data;
     std::cout << "data : " << static_cast<int>(data) << std::endl;
-
+    std::cout << "data : " << sizeof(data) << std::endl;
    
     return 0;
 }
